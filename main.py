@@ -64,3 +64,26 @@ burnedFood = input("What word describes burned food?: ")
 diyItem = input("Name a DIY item: ")
 print("MENU")
 print(cookingMethod, food, "with ", burnedFood, plant, "on a bed of ", diyItem)
+
+
+# Day 4
+
+# To change colour you add the code "\033[colour code m"
+# This colour will print everything after this point in the new color.
+# You will need to reset if you want to go back and change it in previous lessons.
+
+print("hello")
+
+print("\033[0m Default")
+print("\033[30m Black")
+print("\033[31m Red")
+print("\033[32m Green")
+print("\033[33m Yellow")
+print("\033[34m Purple")
+print("\033[35m Cyan")
+print("\033[37m White")
+
+# To add speific words in a sentence to have colour you can surround the code either side of that speific word e.g.
+print("Uh, oh, you've been given a",
+      "\033[31m", "warning", "\033[0m", "for being a bad, bad person.")
+# This will print the "Warning" word in red and then goes back to the default colour.
